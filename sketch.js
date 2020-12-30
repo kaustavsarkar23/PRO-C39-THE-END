@@ -74,7 +74,7 @@ if(gameState === PLAY){
     bananaGroup.destroyEach();
     score = 1;
     fill("red");
-    text("GAME OVER", 200, 200)
+    text("THE END", 200, 200)
     textSize(20);
     gameOver.visible = false
     ;
